@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'edit_undo_brkregular';
+    src: url('editundo.woff2') format('woff2'),
+         url('editundo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('DOSMyungjo.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#notice{
+	
+	 font-family:  DOSMyungjo;
+	color: white;	
+}

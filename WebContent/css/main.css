@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'edit_undo_brkregular';
+    src: url('editundo.woff2') format('woff2'),
+         url('editundo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-color: black;
+	
+}
+
+.main-container{
+	display: flex;
+	
+	displasy:flex;   
+	align-items: baseline;
+	align-content: center; 
+	position:relative;
+	 	 flex-direction: column;
+	 	 
+	 
+}
+
+
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('DOSMyungjo.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+
+}
+.main-text{
+	
+	 margin-left: 50px;
+	 margin-top: 60px;
+}
+.main-text p {
+	displasy:flex;   
+	align-items: baseline;
+	align-content: center; 
+	
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main-text p:nth-child(1) {
+	
+	color: white;
+  width: 18.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.main-text p:nth-child(2) {
+		color: white;
+	
+  width: 19.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.main-text p:nth-child(3) {
+	color: white;
+	
+  width: 30.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.main-text p:nth-child(4) {
+	
+		color: white;
+	
+  width: 36.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.main-text p:nth-child(7) {
+	
+		color: white;
+	
+  width: 16.5em;
+  opacity: 0;
+  -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+.start-container a{
+	text-decoration:none;
+	color: red;
+ font-size: 22px;	
+	font-family:  'DOSMyungjo';
+	 
+	  opacity: 0;
+
+    animation: fadeInText 2s 9s ease-out forwards;
+}
+
+
+@keyframes fadeInText {
+    100% {
+       opacity: 1;
+    }
+}
+
+.start-container a:hover{
+	background-color: white;
+	font-size:25px;
+	}
+	
+	
+	
+	

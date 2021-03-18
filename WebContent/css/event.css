@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'edit_undo_brkregular';
+    src: url('editundo.woff2') format('woff2'),
+         url('editundo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('DOSMyungjo.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-color: black;
+}
+.container{
+	display: flex;
+	
+	align-items: center;
+	align-content: center; 
+	position:relative;
+	flex-direction: column;
+}
+
+.table_search{
+	margin:20px;
+	
+	align-items: center;
+	align-content: center; 
+	position:relative;
+		flex-direction: row;
+	
+}
+
+.event-container{	
+	margin: 0px;
+	padding: 0px;
+	align-items: center;
+	align-content: center; 
+	position:relative;
+	display:flex;   
+	
+	flex-direction: row;
+	width: 90%;
+	height: 100%;
+		background-color: black; opacity: .7;
+ 
+ padding: 20px;
+  border-radius: 10px;
+
+	box-shadow:0 0 20px gray;	
+}
+
+
+.envet-content{ 
+	justify-content: center;
+  width: 100%;
+  height: 100%;
+	align-items: center;
+	flex-direction: row;
+	display: flex;
+	flex-wrap: wrap;
+}
+	
+.event-ul{
+	width: 20%;
+	list-style:none;
+	color: gray;
+}
+
+.event-li{ box-sizing: border-box;
+	background-color: white; opacity: .9;
+	padding: 10px;
+}
+
+.bottom{
+	margin: 100px;
+	display: flex;
+	position: relative;
+/* 	bottom: 30px; */
+}
+
+

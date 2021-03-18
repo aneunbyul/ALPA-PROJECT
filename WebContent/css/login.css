@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('DOSMyungjo.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	background-image:  url(../images/2.gif);
+	height: 600px;
+
+	 background-repeat: no-repeat;
+	 background-size:cover;
+	background-position:center;
+	
+	
+	 
+}
+.container{
+	display: flex;
+	justify-content: center;
+	 align-items: center;
+}
+.login-container{
+	border-style: outset;
+	border-color: gray;
+	box-shadow:0 0 20px gray;
+	
+	
+	
+	background-color: black; opacity:0.7;
+	
+	width: 550px;
+/* 	height: 360px; */
+	padding:20px,20px,20px,20px;
+	padding-bottom:30px;
+	
+	justify-content: center;
+	 align-items: center;
+	 flex-direction: column;
+	 display: flex;
+	 
+	 font-family:  DOSMyungjo;
+	 font-size: 35px;
+	color: white;
+	
+	
+}
+input{
+/* 	 border-bottom: 5px solid hsla(0, 50%, 70%, 1); */
+	
+	
+	border: 1px solid gray;
+	
+	
+	background: black;
+	color: white;
+	
+	font-size:20px;
+	 font-family:  DOSMyungjo;
+}
+input:hover{
+	background: white; opacity: 0.7;
+}
+
+fieldset{
+	border: 3px solid gray;
+}
+
+.buttons > input{
+ background-color: #7289DA;	
+ width: 420px;
+ font-size: 30px;
+ padding: 3px;
+ margin: 15px;
+}
+
